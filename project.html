@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="./styles.css">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/947b113c0c.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="section1">
+        <div class="first-page-bg p-3">
+            <img src="https://img.freepik.com/free-vector/creative-welcome-team-banner-corporate-hiring_1017-43282.jpg" class="w-100 mb-3" />
+            <h1 class="first-heading p-3">Hello every one Welcome to the <span class="spn-ele">project.</span></h1>
+            <p class="first-description p-2">let's get <span class="sapm-descripton">into the project for more details.</span></p>
+            <div class="first-icon">
+                <i class="fab fa-twitter icon"></i>
+                <i class="fab fa-facebook icon"></i>
+                <i class="fab fa-whatsapp icon"></i>
+                <i class="fab fa-instagram icon"></i>
+            </div>
+            <hr class="hr-line" />
+            <div class="button-center pt-3">
+                <button class="first-button w-100" onclick="display('section3')">Sign up with mail</button>
+            </div>
+            <p class="first-description text-center p-3">All ready have a accout <span class="sapm-descripton" onclick="display('section2')">login?</span></p>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="second-page-bg p-3">
+            <i onclick="display('section1')" class="fa-solid fa-arrow-left-long edit-icon"></i>
+            <h1 class="second-page-heading p-3">Log in to the project</h1>
+            <p class="second-disceription p-3">Welcome back! Sign in using your social account or email to continue us</p>
+            <div class="second-icon">
+                <i class="fab fa-twitter icon2"></i>
+                <i class="fab fa-facebook icon2"></i>
+                <i class="fab fa-whatsapp icon2"></i>
+                <i class="fab fa-instagram icon2"></i>
+            </div>
+            <hr class="hr-line2" />
+            <input type="text" class="email-box" placeholder="enter your email" />
+            <input type="password" class="email-box" placeholder="enter your password" />
+            <div class="button-center pt-3">
+                <button class="second-button w-100" onclick="display('section3')">Log in</button>
+            </div>
+            <p class="second-disceription p-3">Forgot password?</p>
+        </div>
+    </div>
+    <div id="section3">
+        <div class="third-page p-3">
+            <i onclick="display('section2')" class="fa-solid fa-arrow-left-long edit-icons"></i>
+            <h1 class="second-page-heading p-3">Sign up with Email</h1>
+            <p class="second-disceription p-3">Enter your detailes and Create an account.</p>
+            <input type="text" class="email-box" placeholder="Enter your name" />
+            <input type="text" class="email-box" placeholder="Enter your email" />
+            <input type="password" class="email-box" placeholder="Enter your password" />
+            <input type="password" class="email-box" placeholder="Conform your password" />
+            <div class="button-center pt-3">
+                <button class="second-button w-100" onclick="display('section4')">Create an account </button>
+            </div>
+        </div>
+    </div>
+    <div id="section4">
+        <div class="main-page-bg p-1">
+            <i onclick="display('section1')" class="fa-solid fa-arrow-left-long edit-icon"></i>
+            <h1 class="main-heading">AI</h1>
+            <div class="chat-bg">
+                <p class="discriprion-chat">How can I help you</p>
+                <p class="discriprion-chat-1 text-right">Can you explain about this project?</p>
+                <p class="discriprion-chat">This the demo-project which I am understand the consepts using the project are HTML, CSS, BOOTSTRAP this is the small demo.</p>
+                <p class="discriprion-chat-1 text-right mb-5">Ok thank you.</p>
+            </div>
+            <input type="text" class="email-box" placeholder="enter your text" />
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+    <script src="./eswar.js" charset="UTF-8"></script>
+</body>
+
+</html>

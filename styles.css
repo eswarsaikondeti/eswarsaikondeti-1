@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.first-page-bg {
+    background-color: #000033;
+}
+
+.first-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.spn-ele {
+    color: yellow;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.sapm-descripton {
+    color: yellow;
+    font-family: "Roboto";
+}
+
+.first-description {
+    font-family: "Roboto";
+    color: white;
+    font-size: 25px;
+}
+
+.first-button {
+    height: 40px;
+    width: 550px;
+    background-color: yellow;
+    font-family: "Roboto";
+    font-size: 20px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+.icon {
+    color: white;
+    font-size: 50px;
+    margin: 35px;
+}
+
+.first-icon {
+    text-align: center;
+}
+
+.hr-line {
+    background-color: white;
+}
+
+.second-page-heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.second-disceription {
+    font-family: "Roboto";
+    font-size: 15px;
+    text-align: center;
+}
+
+.hr-line2 {
+    background-color: black;
+}
+
+.second-icon {
+    text-align: center;
+}
+
+.icon2 {
+    color: black;
+    font-size: 50px;
+    margin: 35px;
+}
+
+.email-box {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.second-button {
+    height: 40px;
+    width: 550px;
+    background-color: blue;
+    font-family: "Roboto";
+    font-size: 20px;
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+.second-page-bg {
+    background-color: green;
+}
+
+.main-page-bg {
+    background-color: #000033;
+}
+
+.main-heading {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.chat-bg {
+    background-color: #ff80bf;
+    padding: 10px;
+}
+
+.discriprion-chat {
+    font-family: "Roboto";
+    font-size: 20px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+}
+
+.discriprion-chat-1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+
+.edit-icon {
+    color: white;
+    font-size: 25px;
+}
+
+.edit-icons {
+    color: black;
+    font-size: 25px;
+}
